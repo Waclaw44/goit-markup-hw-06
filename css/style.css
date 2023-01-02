@@ -571,6 +571,11 @@ a {
   border-radius: 4px;
   margin-bottom: 30px;
 }
+
+.svgMargin {
+  padding-left: 100px;
+}
+
 .flexadresSvg {
   display: flex;
 }
@@ -673,8 +678,51 @@ a {
   margin-top: 12px;
 }
 
+.butonEmail {
+  margin-top: 72px;
+  margin-left: 171px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
 
+.inputSize {
+  width: 358px;
+  height: 50px;
+  left: 815px;
+  top: 2787px;
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-top: 20px;
+  padding-left: 16px;
+  color: #ffffff;
+}
 
+.butonColor {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: #2196f3;
+  border-radius: 4px;
+  margin-left: 12px;
+  color: #ffffff;
+  padding-bottom: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.butonColor:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.svgMarg {
+  margin-left: 24px;
+}
 
 .modal-content {
   background-color: #ffffff;
@@ -735,4 +783,72 @@ a {
 .modal-content button:hover {
   border: 1px solid #2196f3;
   color: #2196f3;
+}
+
+.modalIn {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+  text-align: start;
+  margin-left: 40px;
+}
+
+.TextModalIn {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 12px;
+}
+
+.borderInModal {
+  width: 448px;
+  height: 40px;
+  left: 576px;
+  top: 314px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.borderInModalTwo {
+  width: 448px;
+  height: 120px;
+  left: 576px;
+  top: 518px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-left: -10px;
+  padding-top: 12px;
+  padding-left: 16px;
+  margin-bottom: 20px;
+}
+
+.svgInModal {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 14px;
+}
+
+.checkboxModal {
+  margin-left: 10px;
+}
+
+.regColorlOne {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.regColorlTwo {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.buttonInModalBotom {
 }
